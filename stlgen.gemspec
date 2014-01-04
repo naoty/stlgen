@@ -1,10 +1,9 @@
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'stlgen/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "stlgen"
-  spec.version       = Stlgen::VERSION
+  spec.version       = "0.0.1"
   spec.authors       = ["Naoto Kaneko"]
   spec.email         = ["naoty.k@gmail.com"]
   spec.summary       = %q{STL generator.}
