@@ -1,4 +1,3 @@
-# coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'stlgen/version'
@@ -8,9 +7,8 @@ Gem::Specification.new do |spec|
   spec.version       = Stlgen::VERSION
   spec.authors       = ["Naoto Kaneko"]
   spec.email         = ["naoty.k@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.summary       = %q{STL generator.}
+  spec.homepage      = "https://github.com/naoty/stlgen"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
